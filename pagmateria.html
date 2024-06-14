@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Matéria</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container color">
+        <div class="header">
+            <h1>Adicione sua nova Matéria</h1>
+            <p><a href="index.html">voltar</a></p>
+        </div>
+        <form>
+            <h3>Sinopse</h3>
+            <div class="mb-3">
+                <label for="name" class="form-label">História da sua matéria</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite aqui">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Imagem da sua história</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+                <label for="Temperatura" class="form-label">Data de publicação</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite aqui">
+            </div>
+            <div class="mb-3">
+                <label for="BPM" class="form-label">Data de expiração</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite aqui">
+            </div>
+            <div class="form-floating">
+                <label for="comorbidades">História</label>
+                <textarea class="form-control" placeholder="Sua história" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+            </div>
+
+            <input class="btn btn-primary ajeitar" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
